@@ -1,7 +1,7 @@
 {
     "cSpell.language": "en,es-ES",
     "github.copilot.enable": {
-        "*": false,
+        "*": true,
         "plaintext": false,
         "markdown": false,
         "scminput": false
