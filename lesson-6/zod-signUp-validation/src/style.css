@@ -1,0 +1,60 @@
+/* Estilo básico general */
+body {
+  margin: 0 50px;
+  font-family: Arial, sans-serif;
+  background-color: #e6f0ff; /* Azul muy claro */
+}
+
+/* Contenedor centrado */
+.container {
+  max-width: 400px;
+  margin: 80px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 102, 204, 0.2); /* Sombra azul */
+  text-align: center;
+}
+
+/* Encabezado principal */
+h1 {
+  color: #004080; /* Azul oscuro */
+  margin-bottom: 20px;
+}
+
+/* Estilo de etiquetas y entradas */
+form label {
+  display: block;
+  margin: 10px 0 5px;
+  color: #003366; /* Azul intermedio */
+  text-align: left;
+}
+
+form input {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #99ccff;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+/* Botón de envío */
+form button {
+  background-color: #0066cc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #004c99;
+}
+
+/* Mensaje de error */
+.error-message {
+  color: red;
+  margin-top: 10px;
+  font-weight: bold;
+}
